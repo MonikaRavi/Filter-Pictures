@@ -1,0 +1,31 @@
+body{
+	
+	background-color: BurlyWood;
+	
+	}
+
+h1{
+	
+	font-family: Georgia;
+	font-style: Italic;
+}
+
+h2{
+	
+	font-family : "Times New Roman";
+	font-style: oblique;
+}
+
+h3{
+	
+	font-family : Cambria;
+	font-size: medium;
+	
+}
+
+canvas{
+	
+	width: 500px;
+	border: 1px solid #000;
+	
+}
