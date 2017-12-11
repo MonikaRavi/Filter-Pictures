@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My very Own Lightroom</title>
+
+
+
+<script src="SimpleImage.js"></script>
+
+<link rel="stylesheet" href="filterStyle.css">
+
+<script src="applyFilters.js"></script>
+
+</head>
+<body>
+
+
+<h1>Modern Lightroom</h1>
+
+<h2>Create different perspective of your images</h2>
+
+<canvas id="canvas1"></canvas>
+
+<br>
+
+<p>
+
+<h3> Load Image</h3>
+
+<br>
+
+<input type = "file" multiple = "false" accept="image/*" id="finput" onchange="uploadImg()">
+
+<br> <br>
+
+<h3>Apply Filter</h3>
+
+<input type = "button" value = "Gray Scale" id="GrayS" onclick="filterGray()">  
+
+<input type = "button" value = "Red Hue" id="RedS" onclick="filterRed()">  
+
+<input type = "button" value = "Rainbow" id="RainbowS" onclick="filterRainbow()">  
+
+<br> <br>
+
+<input type = "button" value = "Clear Canvas" id="clearCan" onclick="clearCanvas()">  
+
+
+<input type = "button" value = "Reset Image" id="resetImg" onclick="resetImage()">  
+
+</body>
+</html>
