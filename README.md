@@ -1,4 +1,4 @@
-# Filter-Pictures
+# Image Filter
 
 Code to upload a picture and apply filters like Gray Scale, Red Hue, Rainbow!
 
